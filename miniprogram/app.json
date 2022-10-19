@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/mine/mine",
+    "pages/index/index",
+    "pages/menulist/menulist",
+    "pages/logs/logs",
+    "pages/menulist/tools.wxs"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "/images/icon_home_gery.png",
+        "selectedIconPath": "/images/icon_home_active.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/images/icon_mine_gery.png",
+        "selectedIconPath": "/images/icon_mine_active.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "navigationBarTitleText": "油尚行",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f0f0f0",
+    "onReachBottomDistance": 50
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

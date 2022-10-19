@@ -1,0 +1,6 @@
+function toLower(str){
+  return str.toUpperCase();
+ }
+ module.exports={
+  toLower:toLower
+ }

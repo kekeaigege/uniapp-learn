@@ -1,0 +1,3 @@
+<!--index.wxml-->
+<navigator open-type="navigateBack" delta="1">后退</navigator>
+<navigator open-type="navigateBack" >后退</navigator>

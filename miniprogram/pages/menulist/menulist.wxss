@@ -1,0 +1,10 @@
+/* pages/menulist/menulist.wxss */
+.container-shop{
+  background-color: #efefef;
+  padding-top: 20rpx;
+}
+.shop-item{
+  background-color: #fff;
+  margin-bottom: 10rpx;
+  border-radius: 8px;
+}

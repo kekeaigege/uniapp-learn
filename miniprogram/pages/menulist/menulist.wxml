@@ -1,0 +1,11 @@
+<!--pages/menulist/menulist.wxml-->
+<view class="container-shop">
+  <view wx:for="{{shopList}}" wx:key="id" style="display: flex;" class="shop-item">
+    <image src="{{item.images[0]}}" style="height: 250rpx;width: 250rpx;flex: 1;padding-left: 10rpx;"></image>
+    <view style="flex: 2;">
+      <Text>{{item.address}}</Text>
+      <view style="font-size:25rpx; color: rgb(134, 141, 139);">{{mi.splitPhone(item.phone)}}</view>
+    </view>
+  </view>
+</view>
+<wxs src="tools.wxs" module="m1"></wxs>

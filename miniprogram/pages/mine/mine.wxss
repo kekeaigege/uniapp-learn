@@ -1,0 +1,35 @@
+/* pages/mine/mine.wxss */
+swiper{
+  height: 350rpx;
+}
+swiper image{
+  width: 100%;
+  height: 100%;
+}
+.grid-list{
+  width: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+.grid-list .grid-item{
+  display: flex;
+  height: 200rpx;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 33.33%;
+}
+.grid-list .grid-item image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.grid-list .grid-item text{
+  font-size: 24rpx ;
+}
+.num-item{
+border-radius: 4rpx;
+line-height: 200rpx;
+margin: 15rpx;
+text-align: center;
+box-shadow: 1rpx 1rpx 6rpx #aaa;
+}

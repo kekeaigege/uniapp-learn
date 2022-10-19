@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "navigationBarTitleText": "铅封发布",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false
+}

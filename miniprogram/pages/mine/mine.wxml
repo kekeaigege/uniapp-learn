@@ -1,0 +1,6 @@
+<view style="display: flex;flex-wrap: wrap;">
+  <navigator style="width: 33.33%;height:200rpx;display: flex;flex-direction: column; align-items: center;justify-content: center;" wx:for="{{menuList}}" wx:key="index" url="/pages/menulist/menulist?id={{item.id}}&title={{item.name}}">
+    <image src="{{item.icon}}" style="width: 60rpx; height: 60rpx;"></image>
+    <Text>{{item.name}}</Text>
+  </navigator>
+</view>
